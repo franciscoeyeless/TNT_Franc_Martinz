@@ -2,15 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF176">
+    android:background="#D50000">
 
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
         android:src="@drawable/escudo_bikesec_removebg_preview" />
 
     <ProgressBar
@@ -26,5 +28,6 @@
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="59dp"
         android:background="#004DB6AC"
-        android:progress="@integer/material_motion_duration_long_1" />
+        android:progress="@integer/material_motion_duration_long_1"
+        tools:ignore="VisualLintBounds" />
 </RelativeLayout>
