@@ -6,12 +6,19 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/escudo_bikesec_removebg_res110x90"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/escudo_bikesec_removebg_res110x90"
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDJbzU32uxwF5zBGhniZASzCIvjskhRp2w"
+            />
+
+
+
         <activity
             android:name=".Principal"
             android:exported="false" />
